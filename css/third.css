@@ -229,7 +229,7 @@ padding: 16px;
   border-radius: 16px;
   transition: all .38s linear;
   box-sizing: border-box;
-  min-height: 500px;
+  min-height: 530px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
 }
 .abt_box h3{
