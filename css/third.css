@@ -330,7 +330,7 @@ padding: 16px;
     width: 100%;
   }
 }
-@media screen and (max-width: 992px){
+@media screen and (max-width: 993px){
   .banner2{
     flex-direction: column;
   }
@@ -1653,7 +1653,7 @@ padding: 16px;
   
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:768px) {
   .tipsbanner{
       margin-left: -70px;
       height: 350px;
