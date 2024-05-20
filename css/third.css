@@ -1655,13 +1655,12 @@ padding: 16px;
 
 @media screen and (max-width:768px) {
   .tipsbanner{
-      margin-left: -70px;
-      height: 350px;
-      width: 550px;
+      margin: 0 auto;
+      margin-left: 14%;
   }
   .hangingboard{
-      margin-left: -85px;
-      margin-right: 5px;
+      margin: 0 auto;
+      margin-left: 10%;
   }
   .timeline{
       margin: 50px auto;
@@ -1757,7 +1756,7 @@ footer{
 }
 
 iframe{
-  width: 450px;
+  width: 400px;
   height: 100%;
 }
 
@@ -1783,6 +1782,14 @@ iframe{
   }
   footer{
     flex-direction: column;
+  }
+  .navbar a{
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .dropdown .btn{
+    width: 100%;
   }
 }
 

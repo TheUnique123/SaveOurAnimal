@@ -68,13 +68,20 @@ body{
   border: solid 2px white;
 }
 
+#navbar-nav{
+  padding: 0;
+  margin: 0;
+}
+
 /*drop downmenu*/
+
+
 .dropdown-menu{
   background: #1E6B7F;
 }
 .dropdown .btn{
 /*  background: #1E6B7F;*/
-  broder: 2px solid black;
+  border: 2px solid black;
   padding: 9.5px;
 }
 .dropdown-menu a{
@@ -227,7 +234,8 @@ body{
 /*START OF INFORMATION BANNER*/
 .infobanner{
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  align-items: center;
   height: auto;
 }
 .infobanner img{
@@ -238,6 +246,9 @@ body{
   font-family: "Lobster", sans-serif;
   color: #CCE490;
   text-align: center;
+}
+.infotxtbox{
+  width: 100%;
 }
 .infotxt{
   width: 100%;
@@ -277,6 +288,11 @@ body{
 background: beige;
 }
 
+.card_main{
+  margin-left: 40px;
+}
+
+
 /*WILDLIFE ARITCLES SART*/
 .articlewild .card{
   background: linear-gradient( #1E6B7F, #259F6C);
@@ -288,6 +304,10 @@ background: beige;
 }*/
 /*END OF WILDLIFE ARTTICLES*/
 /*END OF ARTICLES*/
+
+#marine_sml{
+  background: white;
+}
 
 /*START OF FOOTER*/
 .fa-brands{
@@ -335,11 +355,22 @@ footer{
   transition: 0.3s;
 }
 
+iframe{
+    width: 400px;
+    height: 100%;
+  }
 
 /*END OF FOOTER*/
 
 
 /*RESPONSIVE*/
+@media screen and (max-width: 1300px){
+  iframe{
+    width: 350px;
+    height: 100%;
+  }
+}
+
 @media screen and (max-width: 750px){
   body{
     overflow-x: hidden;
@@ -361,5 +392,14 @@ footer{
   }
   .wildinfotxtbox .infotxt{
     padding: 0 0;
+  }
+
+  .navbar a{
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .dropdown .btn{
+    width: 100%;
   }
 }
